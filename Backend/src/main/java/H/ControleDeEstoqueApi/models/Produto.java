@@ -16,13 +16,6 @@ public class Produto {
 	private String ean;
 	private Boolean inativo;
 	
-	public Produto(Integer codigo, String descricao, Date validade, String ean, Boolean inativo) {
-		this.codigo = codigo;
-		this.descricao = descricao;
-		this.validade = validade;
-		this.ean = ean;
-		this.inativo = inativo;
-	}
 	
 	
 }

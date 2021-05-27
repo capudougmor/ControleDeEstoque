@@ -19,4 +19,16 @@ public class ProdutoService {
 		listaProduto.add(p2);
 		return listaProduto;
 	}
+
+	public void inserir(Produto produto) {
+		System.err.println(produto);
+	}
+
+	public void alterar(Produto produto) {
+		System.err.println(produto);
+	}
+
+	public void excluir(Long id) {
+		System.err.println(id);
+	}
 }
